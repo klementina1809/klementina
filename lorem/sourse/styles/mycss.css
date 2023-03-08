@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Gloock&display=swap");
+
+
+a {
+	text-decoration-line: underline;
+	color: rgb(255, 218, 251);
+}
+body {
+	font-family: Gloock, serif;
+	background: linear-gradient(87deg, #f7b5dc 14%, #8c3b6b 94%);
+}
+p {
+	color: antiquewhite;
+}
+
+.navbar.navbar-expand-lg {
+	background: linear-gradient(180deg, #d484b3 14%, #be5c97 94%);
+}
+.nav-link {
+	color: rgb(255, 218, 251);
+}
+
+.navbar-nav .nav-link.active {
+	color: rgb(113, 77, 109);
+}
+
+.navbar-brand img {
+	width: 45px;
+}
+.navbar-toggler {
+	background-color: rgb(161, 132, 157);
+}
+.sidebar {
+	color: rgb(255, 243, 248);
+	background: linear-gradient(270deg, #eb84c0 14%, #9a4277 94%);
+}
+
+.card {
+	background: linear-gradient(300deg, #eb84c0 14%, #9a4277 94%);
+
+}
+
+.card a {
+text-decoration: none;
+color: antiquewhite;
+}
+
+.slide-text,
+ .footer-text {
+	color: antiquewhite;
+	margin: auto auto;
+}
+
+footer, .btn-outline-light {
+	background: linear-gradient(300deg, #eb84c0 14%, #9a4277 94%);
+margin-top: 2em;
+}
+
+.media-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer img {
+	width: 2em;
+	margin-inline: 1em;
+}
+
+.call-anim {
+	animation: myAnim 3s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+	.carousel-indicators {
+display: none;
+	}
+}
